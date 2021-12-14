@@ -3,7 +3,7 @@ from keras.layers import Input, Embedding, Flatten, Dot, Add, Lambda
 from keras.layers import Activation, Reshape, Concatenate, Dense, Dropout
 from keras.regularizers import l2
 from keras.constraints import non_neg
-from keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam
 
 
 def ExplicitMatrixFactorisation(n_users, n_items, n_factors):
